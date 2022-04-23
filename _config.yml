@@ -7,7 +7,7 @@ baseurl: ''
 email: ss.mirzababaei@gmail.com
 cover: https://optimopium.github.io/img/og.png
 logo: https://optimopium.github.io/img/emojis/logo.png
-cv: https://optimopium.github.io/CV.pdf
+cv: https://optimopium.github.io/cv.pdf
 social:
   - title: email
     url: mailto:ss.mirzababaei@gmail.com
