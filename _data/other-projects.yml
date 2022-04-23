@@ -8,6 +8,15 @@
     - thing: Model Training
     - thing: TFIDF
 
+- name: "ParsTimeNER : Date and Time named entity recognition with weak supervision approach"
+  url: #
+  code: #
+  description: Roberta + CRF + Adversarial Training Time-Date markers extractor.
+  used:
+    - thing: NLP
+    - thing: Information Extraction
+    - thing: Regex
+
 - name: "Parstdex: Persian Date and Time Markers Extractor"
   url: https://huggingface.co/spaces/kargaranamir/parstdex
   code: https://github.com/kargaranamir/parstdex
