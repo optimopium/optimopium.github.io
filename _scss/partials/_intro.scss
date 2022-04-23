@@ -3,11 +3,29 @@
   flex-direction: column;
   margin: 0 auto;
   &__container {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    max-width: 1440px;
-    padding: 120px 40px 20px 40px;
+    @include thirteen {
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+      max-width: 1440px;
+      padding: 120px 40px 20px 40px;
+    }
+    @include desktop {
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+      max-width: 1440px;
+      padding: 120px 40px 20px 40px;
+    }
+    @include phablet{
+      height: 70vh;
+      padding: 40px 35px 15px 35px;
+      display: flex;
+      flex-direction: column;
+      align-content: stretch;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
   &__profile {
     background-image: url('../img/logo/bio-photo.jpg');
@@ -16,15 +34,19 @@
     background-size: cover;
     margin: 3%;
     border-radius: 50%;
+    @include phablet {
+      height: 200px;
+      width: 200px;
+    }
   }
   @include weird-medium {
     padding: 120px 70px;
   }
   @include phablet {
-    padding: 120px 50px;
+    padding: 5px 5px;
   }
   @include mobile {
-    padding: 70px 50px;
+    padding: 5px 5px;
   }
   &__hello, &__tagline {
     font-size: 1.5rem;
@@ -35,13 +57,13 @@
       font-size: 2rem;
     }
     @include phablet {
-      font-size: 1.75rem;
+      font-size: 1rem;
     }
     @include small-mobile {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     @include tiny-mobile {
-      font-size: 1.4rem;
+      font-size: 1rem;
     }
     .emoji {
       width: 25px;

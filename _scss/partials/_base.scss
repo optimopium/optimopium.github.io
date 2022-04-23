@@ -107,7 +107,7 @@ strong {
     display: block;
   }
   @include mobile {
-    padding: 50px 35px;
+    padding: 20px 35px;
   }
   &__title {
     flex-shrink: 0;
@@ -135,7 +135,7 @@ strong {
     width: 100%;
     max-width: 650px;
     @include tablet {
-      padding-top: 30px;
+      padding-top: 10px;
       padding-left: 50px;
     }
     @include mobile {
@@ -178,7 +178,7 @@ strong {
   font-weight: 700;
   display: inline-block;
   background-color: transparent;
-  white-space: nowrap;
+  white-space: normal;
   &:after {
     @include transition;
     position: relative;
