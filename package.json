@@ -1,0 +1,28 @@
+{
+  "name": "optimopium.github.io",
+  "version": "0.0.0",
+  "description": "I am a computer scientist looking for ways to teach machines how we communicate with each other(NLP Specialist). I want to devote my time doing a Ph.D., learning, and exploring the unknown.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/optimopium/optimopium.github.io"
+  },
+  "homepage": "https://github.com/optimopium/optimopium.github.io",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve --watch",
+    "build": "gulp build"
+  },
+  "author": "Sajad Mirzababaei",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "3.0.2"
+  }
+}

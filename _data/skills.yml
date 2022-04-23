@@ -1,0 +1,27 @@
+languages:
+  - item: Python
+  - item: C/CPP
+  - item: JS
+  - item: PHP
+  - item: SQL
+  - item: Bash
+
+libraries:
+  - item: Pandas
+  - item: Numpy
+  - item: Sklearn
+  - item: Matplotlib
+  - item: Pyspark
+
+frameworks:
+  - item: PyTorch
+  - item: PyTorch Lightening
+  - item: Django
+  - item: Flask
+  - item: Zend(PHP)
+
+tools:
+  - item: Linux
+  - item: Wekka
+  - item: ELK Stack
+  - item: Power BI

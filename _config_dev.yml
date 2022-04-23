@@ -1,0 +1,41 @@
+# Site settings
+name: Sajad Mirzababaei
+title: Sajad Mirzababaei | Computer Scientist
+description: I am a computer scientist looking for ways to teach machines how we communicate with each other(NLP Specialist). In the future, I would like to pursue a Ph.D., learn, and explore the unknown.
+url: https://optimopium.github.io/
+baseurl: ''
+email: ss.mirzababaei@gmail.com
+cover: https://optimopium.github.io/img/og.png
+logo: https://optimopium.github.io/img/emojis/logo.png
+cv: https://optimopium.github.io/cv.pdf
+social:
+  - title: email
+    url: mailto:ss.mirzababaei@gmail.com
+  - title: twitter
+    url: https://twitter.com/optimopium
+  - title: github
+    url: https://github.com/optimopium
+  - title: linkedin
+    url: https://www.linkedin.com/in/sajjad-mirzababaei/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

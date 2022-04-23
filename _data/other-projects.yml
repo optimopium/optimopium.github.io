@@ -1,0 +1,18 @@
+- name: "Persian Semantic Search"
+  url: https://github.com/optimopium/persian-semantic-search
+  code: https://github.com/optimopium/persian-semantic-search
+  description: Ranking documents similarity using TFIDF, weighted TFIDF, and fine-tuned Bert model.
+  used:
+    - thing: NLP
+    - thing: Semantic Search
+    - thing: Model Training
+    - thing: TFIDF
+
+- name: "Parstdex: Persian Date and Time Markers Extractor"
+  url: https://huggingface.co/spaces/kargaranamir/parstdex
+  code: https://github.com/kargaranamir/parstdex
+  description: A package that extracts Persian time and date markers by applying regexes.
+  used:
+    - thing: NLP
+    - thing: Information Extraction
+    - thing: Regex

@@ -1,0 +1,24 @@
+- name: Intelligent Information Solutions Laboratory, Iran, Tehran
+  position: Software Engineer
+  url: https://www.linkedin.com/company/intelligent-information-solutions-center/
+  description: "IS Center is a knowledge-centric center at the Sharif University of Technology whose
+                main aim is to improve the transmission of knowledge and expertise at the Sharif
+                University of Technology to industries that rely on such knowledge."
+  time: Nov 2020 - Present
+  used:
+    - thing: Software Architecture
+    - thing: Software Engineer
+    - thing: Backend Developer
+
+
+- name: Paziresh24, Iran, Tehran
+  position: Data Scientist and Backend Developer
+  url: https://www.linkedin.com/company/intelligent-information-solutions-center/
+  description: "Paziresh24 is a digital health marketplace that provides cloud-based solutions for
+                appointment booking and online consulting for patients, medical clinics, hospitals,
+                and physicians."
+  time: Sep 2019 – Oct 2020
+  used:
+    - thing: Data Scientist
+    - thing: Software Engineer
+    - thing: Backend Developer

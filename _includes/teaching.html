@@ -1,0 +1,18 @@
+<section class="section other-projects">
+  <div class="section__title">Experiences</div>
+  <div class="section__content">
+    {% for experience in site.data.experiences %}
+    <div class="project">
+      <div class="project__name">
+        <a href="{{experience.url}}" target="_blank" class="arrow-link">{{experience.name}}</a>
+      </div>
+      <p>{{experience.description}}</p>
+      <div class="project__used">
+        {% for item in experience.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
